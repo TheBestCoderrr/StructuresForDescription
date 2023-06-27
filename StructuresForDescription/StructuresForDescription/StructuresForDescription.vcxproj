@@ -129,12 +129,15 @@
   <ItemGroup>
     <ClCompile Include="Exersize2.cpp" />
     <ClCompile Include="Exersize1.cpp" />
+    <ClCompile Include="Exersize3.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Apartment.h" />
     <ClInclude Include="Car.h" />
     <ClInclude Include="Exersize1.h" />
     <ClInclude Include="Exersize2.h" />
+    <ClInclude Include="Exersize3.h" />
     <ClInclude Include="ManufacturersAndProduct.h" />
     <ClInclude Include="SIZES.h" />
   </ItemGroup>

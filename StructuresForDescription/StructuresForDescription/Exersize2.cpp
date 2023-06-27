@@ -6,6 +6,7 @@ using namespace std;
 
 void InitCar(Car& car) {
 	cout << "Enter model car: ";
+	cin.ignore();
 	cin.getline(car.model, TEXTSIZE);
 	cout << "Enter amout engine: ";
 	cin >> car.engine.amount;
