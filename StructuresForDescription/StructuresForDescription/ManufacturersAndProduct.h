@@ -1,5 +1,5 @@
 #pragma once
-#define TEXTSIZE 50
+#include "SIZES.h"
 struct Manufacturer {
 	char name[TEXTSIZE];
 	long long int phone;

@@ -2,7 +2,7 @@
 #include <string.h>
 
 #include "Exersize1.h"
-#include "ManufacturersAndProduct.h"
+#include "Exersize2.h"
 
 using namespace std;
 
@@ -11,4 +11,8 @@ int main() {
 	InitProductCharacteristics(CPU);
 	CPU.architecture == 0 ? InitAMD(CPU) : InitIntel(CPU);
 	PrintProduct(CPU);
+
+	Car car;
+	InitCar(car);
+	PrintCar(car);
 }
